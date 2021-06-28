@@ -6,6 +6,39 @@
         {
             margin-top: 2%;
         }
+        .button {
+          margin: 2%;
+          padding: 0;
+          display: flex;
+          height: 50px;
+          background: #bc2a8d;
+          border: none;
+          outline: none;
+          border-radius: 5px;
+          overflow: hidden;
+          font-family: 'Billabong', sans-serif;
+          font-size: 28px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+        .button:hover {
+          background: #cd486b;
+        }
+        .button:active {
+          background: #fccc63;
+        }
+        .button__text,
+        .button__icon {
+          display: inline-flex;
+          align-items: center;
+          padding: 0 24px;
+          color: #fff;
+          height: 100%;
+        }
+        .button__icon {
+          font-size: 1.5em;
+          background: rgba(0, 0, 0, 0.08);
+        }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,14 +61,27 @@ background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-2
 background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 "">
     <center>
-        <div> </div>
-        <div class="main_divs"> <button type="button" class="btn btn-outline-light" style="position: relative; width: 30%; height: 3.75rem; border-radius: 15px; "> <i class="fab fa-twitter" style="padding-right: 2%; float:left;"></i> <p style="font-family: 'Castoro', serif;"> Twitter </p> </button> </div>
-        <div class="main_divs"> <button type="button" class="btn btn-outline-light" style="position: relative; width: 30%; height: 3.75rem; border-radius: 15px; "> <i class="fab fa-fw fa-facebook-f" style="padding-right: 2%; float:left;"></i> <p style="font-family: 'Playball', cursive;"> Facebook  </p> </button> </div>
-        <div class="main_divs"> <button type="button" class="btn btn-outline-light" style="position: relative; width: 30%; height: 3.75rem; border-radius: 15px; "> <i class="fab fa-instagram" style="padding-right: 2%; float:left;" ></i> <p style="font-family: 'Billabong', sans-serif;"> Instagram </p></button> </div>
-        <div class="main_divs"> <button type="button" class="btn btn-outline-light" style="position: relative; width: 30%; height: 3.75rem; border-radius: 15px; "> <i class="fab fa-linkedin-in" style="padding-right: 2%; float:left;"></i> <p style="font-family: 'Castoro', serif;"> LinkedIn </p> </button> </div>
-        <div class="main_divs"> <button type="button" class="btn btn-outline-light" style="position: relative; width: 30%; height: 3.75rem; border-radius: 15px; "> <i class="fab fa-github-alt" style="padding-right: 2%; float:left;"></i> <p style="font-family: 'Castoro', serif;"> GitHub </p></button> </div>
-        <div class="main_divs"> <button type="button" class="btn btn-outline-light" style="position: relative; width: 30%; height: 3.75rem; border-radius: 15px; "> <i class="fab fa-youtube" style="padding-right: 2%; float:left;"></i> <p style="font-family: 'Jomhuria', cursive; font-size: 1.75rem;"> Youtube </p></button> </div>
-        <div class="main_divs"> <button type="button" class="btn btn-outline-light" style="position: relative; width: 30%; height: 3.75rem; border-radius: 15px; "> <i class="fab fa-discord" style="padding-right: 2%; float:left;"></i> Discord </button> </div>
+        <div class="main_divs"> <p style="font-family: 'Jomhuria', cursive; font-size: 4.5rem; color: white; "> SOCIAL MEDIA HANDLER </p> </div>
+        <div class="main_divs"> <button type="button" class="btn btn-outline-light" style="position: relative; width: 30%; height: 3.75rem; border-radius: 15px; "> <i class="fab fa-twitter" style="padding-right: 2%;"></i> <p style="font-family: 'Castoro', serif; "> Twitter </p> </button> </div>
+        <div class="main_divs"> <button type="button" class="btn btn-outline-light" style="position: relative; width: 30%; height: 3.75rem; border-radius: 15px; "> <i class="fab fa-fw fa-facebook-f" style="padding-right: 2%;"></i> <p style="font-family: 'Playball', cursive;"> Facebook  </p> </button> </div>
+        <div class="main_divs"> <button type="button" class="btn btn-outline-light" style="position: relative; width: 30%; height: 3.75rem; border-radius: 15px; "> <i class="fab fa-instagram" style="padding-right: 2%; "></i> <p style="font-family: 'Billabong', sans-serif;"> Instagram </p></button> </div>
+        <div class="main_divs"> <button type="button" class="btn btn-outline-light" style="position: relative; width: 30%; height: 3.75rem; border-radius: 15px; "> <i class="fab fa-linkedin-in" style="padding-right: 2%; "></i> <p style="font-family: 'Castoro', serif;"> LinkedIn </p> </button> </div>
+        <div class="main_divs"> <button type="button" class="btn btn-outline-light" style="position: relative; width: 30%; height: 3.75rem; border-radius: 15px; "> <i class="fab fa-github-alt" style="padding-right: 2%; "></i> <p style="font-family: 'Castoro', serif;"> GitHub </p></button> </div>
+        <div class="main_divs"> <button type="button" class="btn btn-outline-light" style="position: relative; width: 30%; height: 3.75rem; border-radius: 15px; "> <i class="fab fa-youtube" style="padding-right: 2%; "></i> <p style="font-family: 'Jomhuria', cursive; font-size: 1.75rem;"> Youtube </p></button> </div>
+        <div class="main_divs"> <button type="button" class="btn btn-outline-light" style="position: relative; width: 30%; height: 3.75rem; border-radius: 15px; "> <i class="fab fa-discord" style="padding-right: 2%; "></i> Discord </button> </div>
+
+        <!-- TRAILS -->
+        <!-- INSTAGRAM -->
+        <button type="button" class="button">
+            <span class="button__text"> Instagram</span>
+            <span class="button__icon">
+              <i class="fab fa-instagram" style="padding-right: 2%;"></i>
+            </span>
+        </button>
+        <!-- FACEBOOK -->
+
+        <!-- DISCORD -->
+          <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     </center>
 </body>
 </html>
